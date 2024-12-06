@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://spencer-hong.github.io/read-about-genes/sitemap.xml
+Sitemap: https://spencer-hong.github.io/read-about-genes//sitemap.xml
