@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: gustav.jpg
+  image_circular: true # crops the image to make it circular
+  more_info: This work is inspired by one of the greatest collectors of biology,
+    <b>Gustav Eisen</b>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+is a comprehensive resource designed to integrate and synthesize knowledge about genes, with a particular focus on those that are understudied. By combining diverse datasets from trusted sources like `NCBI`, `EBI`, and others, this tool provides a streamlined approach to extracting insights from bibliometrics, genomics, and other biomedical data. Start now by searching for specific genes [here](/read-about-genes/genes/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our methodology emphasizes robust, reproducible data integration, with all filtering and processing steps openly shared to ensure transparency and facilitate collaboration. Our scripts to generate this work can be found in our [GitHub](https://github.com/tstoeger/read-about-genes) and the data compiled can be found in our [data](read-about-genes) page. By consolidating fragmented data and making it accessible, we hope this helps researchers learn more about genes that receive less research attention [add more here ].....

@@ -32,14 +32,18 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          {{ page.profile.more_info }}
+          </div>
         {% endif %}
+       </div>
       </div>
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
-
+{% comment %}
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -63,7 +67,7 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
-
+  {% endcomment %}
     <!-- Social -->
     {% if page.social %}
       <div class="social">
@@ -76,5 +80,6 @@ layout: default
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
+    
   </article>
 </div>
