@@ -5,8 +5,13 @@ title: faqs
 description: Using, understanding, and adapting this resource.
 nav: true
 nav_order: 6
+toc:
+  sidebar: left
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+## How was the data curated?
+[answer here]
+## What is the appropriate way to cite this work?
+[answer here]
+## What future data sources will be added?
+[answer here]
